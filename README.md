@@ -1,37 +1,50 @@
-**Phillip Comer | Telecom Systems & Remote Ops Consultant**
+# 🔭 Helix Nebula (NGC 7293) – Astrophotography by Phillip Comer
 
-I help telecom and fixed wireless providers build smarter, faster, and more reliable networks—without wasting manpower or repeating mistakes.
-
-I’ve spent two decades doing this from the ground up: building towers, configuring LTE core equipment, engineering end-to-end systems from the dirt to the cloud. These days, I focus on what matters: automation, tunnel config, monitoring, and design consultation—*so you don’t burn out your team the way I burned out my body*.
-
-I work remotely, flexibly, and deliver fast. My work gets your systems stable and your techs breathing easier. First-time consultations always available.
-
-📬 **Contact:** phillipcomer@comerconsults.com
+This project showcases an original astrophotograph of the Helix Nebula (NGC 7293), captured using the **Seestar S50 telescope** under dark skies at 37°N, 90°W. Over 13 minutes of stacked exposure brought out rich ionization details and color gradients consistent with high-resolution scientific imagery.
 
 ---
 
-### Consulting Package: LTE Network Hardening & IPsec Configuration
-
-**$350 flat rate (intro pricing: $250)**
-
-**Includes:**
-
-- 1-on-1 discovery call (30–45 min)
-- IPsec VTI tunnel config (eNB to MME, pfSense-based)
-- Routing verification, VTI tuning, SCTP-friendly setup
-- Optional config hardening (Zabbix, syslog, or basic monitoring)
-- 3-day remote support post-deployment
-
-> *Remote only. No site travel. I’ve done the field work—this phase of my life is about smart solutions and clean execution.*
+## 📸 Imaging Details
+- **Telescope**: Seestar S50
+- **Exposure Time**: 13 minutes (stacked)
+- **Location**: Missouri, USA (approx. 37°N, 90°W)
+- **Target**: NGC 7293 (The Helix Nebula)
+- **Capture Time**: 2025-07-30 @ 04:49 UTC
 
 ---
 
-Interested? Let’s talk. I speak telco, and I don’t waste time.
+## 🧠 Processing Workflow (PixInsight)
+Post-processing was performed using **PixInsight**, following a verified workflow:
+
+1. **Calibration** – Bias/Dark subtraction
+2. **Star Alignment** – With PSF matching
+3. **Noise Reduction** – MultiscaleLinearTransform
+4. **Stretching** – HistogramTransformation
+5. **Color Enhancement** – SCNR + Curves
+6. **Deconvolution** – With star mask protection
+7. **Final Touches** – Saturation boost, star sharpening
+
+See full workflow: [`NGC7293_PixInsight_Workflow.pdf`](./NGC7293_PixInsight_Workflow.pdf)
 
 ---
 
-I’ve engineered and supported distributed LTE/5G core networks using AGWs tied to centralized orchestrators. Currently consulting on backend systems and automation flows for Connect5G.
+## 📁 File Proof
+- `NGC7293_Raw.jpg` – Original stacked image
+- `NGC7293_Final.jpg` – Final processed result
+- `NGC7293_SideBySide.jpg` – Raw vs. Processed
+- `NGC7293_PixInsight_Workflow.pdf` – Full steps
 
-I’ve worked with SI Wireless, Flat Wireless, and Rural Connect, delivering solutions across a range of hardware and vendor ecosystems including:
+Each file is timestamped, geotagged, and reproducible from Seestar logs.
 
-- **Vendors/Distributors:** Codium, Tarana, Cambium,
+---
+
+## 🧠 Why This Matters
+
+This project is proof of **authentic human work** — not AI-generated, not simulated.  
+It reflects my journey in astrophotography and post-processing, as part of **ComerConsults**.
+
+---
+
+### 🌌 ComerConsults  
+*Field systems | Remote imaging | Edge observatories*  
+📡 `@phillipcomer`
