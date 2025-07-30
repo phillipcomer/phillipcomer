@@ -1,50 +1,57 @@
-# 🔭 Helix Nebula (NGC 7293) – Astrophotography by Phillip Comer
+# Helix Nebula – Real Astrophotography by Phillip Comer
 
-This project showcases an original astrophotograph of the Helix Nebula (NGC 7293), captured using the **Seestar S50 telescope** under dark skies at 37°N, 90°W. Over 13 minutes of stacked exposure brought out rich ionization details and color gradients consistent with high-resolution scientific imagery.
+![Final Image](helix_final.jpg)
 
----
-
-## 📸 Imaging Details
-- **Telescope**: Seestar S50
-- **Exposure Time**: 13 minutes (stacked)
-- **Location**: Missouri, USA (approx. 37°N, 90°W)
-- **Target**: NGC 7293 (The Helix Nebula)
-- **Capture Time**: 2025-07-30 @ 04:49 UTC
+This is a **genuine deep-sky astrophotograph** of the Helix Nebula (NGC 7293), captured on my own equipment and processed entirely by hand using PixInsight. No AI-generated art. Just real sky, real starlight, and real work.
 
 ---
 
-## 🧠 Processing Workflow (PixInsight)
-Post-processing was performed using **PixInsight**, following a verified workflow:
+## 📷 Capture Details
 
-1. **Calibration** – Bias/Dark subtraction
-2. **Star Alignment** – With PSF matching
-3. **Noise Reduction** – MultiscaleLinearTransform
-4. **Stretching** – HistogramTransformation
-5. **Color Enhancement** – SCNR + Curves
-6. **Deconvolution** – With star mask protection
-7. **Final Touches** – Saturation boost, star sharpening
-
-See full workflow: [`NGC7293_PixInsight_Workflow.pdf`](./NGC7293_PixInsight_Workflow.pdf)
+- **Object:** Helix Nebula (NGC 7293) – planetary nebula in Aquarius
+- **Equipment:** Seestar S50 Smart Telescope
+- **Exposure:** 13 minutes total integration time
+- **Date:** 2025
+- **Location:** Missouri (general region – exact coordinates withheld)
+- **Filter:** Unfiltered
+- **Software Used:** PixInsight
 
 ---
 
-## 📁 File Proof
-- `NGC7293_Raw.jpg` – Original stacked image
-- `NGC7293_Final.jpg` – Final processed result
-- `NGC7293_SideBySide.jpg` – Raw vs. Processed
-- `NGC7293_PixInsight_Workflow.pdf` – Full steps
+## 🧪 Processing Summary
 
-Each file is timestamped, geotagged, and reproducible from Seestar logs.
+The raw image was carefully refined using a traditional PixInsight workflow with no automation or shortcuts. Processing included:
+
+1. BackgroundNeutralization
+2. DynamicBackgroundExtraction
+3. Noise reduction via EZ Denoise
+4. HistogramTransformation
+5. CurvesTransformation for contrast and color
+6. Final polish and annotation
+
+> 🔗 See [WORKFLOW.md](WORKFLOW.md) for full step-by-step documentation with module names and purpose.
+
+---
+
+## 🧩 Visual Progression
+
+![Progression](helix_progression.png)
+
+This 4-panel layout shows how the image was refined over time — from raw, to denoised, to contrast stretched, to the final calibrated and centered nebula.
 
 ---
 
 ## 🧠 Why This Matters
 
-This project is proof of **authentic human work** — not AI-generated, not simulated.  
-It reflects my journey in astrophotography and post-processing, as part of **ComerConsults**.
+This project was more than just a photo. It was a test of patience, legacy, and clarity — a chance to prove that **human-crafted imaging still matters** in a world that increasingly automates art.
+
+I believe this is one of the most meaningful captures I've ever worked on, and I’m proud to share it with the world.
+
+> Captured and processed by **Phillip Comer**, 2025  
+> Crow Hill Observatory — ComerConsults
 
 ---
 
-### 🌌 ComerConsults  
-*Field systems | Remote imaging | Edge observatories*  
-📡 `@phillipcomer`
+### 🔗 Connect
+- **Facebook post:** [Link to project post](#) ← *(add your link here when ready)*
+- **More coming soon:** [comerconsults.com](https://comerconsults.com) (in progress)
